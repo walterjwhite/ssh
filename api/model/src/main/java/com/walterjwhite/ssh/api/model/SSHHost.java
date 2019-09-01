@@ -7,7 +7,14 @@ import java.util.List;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
+@Data
+@ToString(doNotUseGetters = true)
+@NoArgsConstructor
+// @PersistenceCapable
 @Entity
 public class SSHHost extends AbstractNamedEntity {
   @Column protected int port;
@@ -25,33 +32,5 @@ public class SSHHost extends AbstractNamedEntity {
 
   public SSHHost(String hostname) {
     super(hostname);
-  }
-
-  public SSHHost() {
-    super();
-  }
-
-  public int getPort() {
-    return port;
-  }
-
-  public void setPort(int port) {
-    this.port = port;
-  }
-
-  public String getHostkey() {
-    return hostkey;
-  }
-
-  public void setHostkey(String hostkey) {
-    this.hostkey = hostkey;
-  }
-
-  public List<SSHCommand> getCommands() {
-    return commands;
-  }
-
-  public void setCommands(List<SSHCommand> commands) {
-    this.commands = commands;
   }
 }

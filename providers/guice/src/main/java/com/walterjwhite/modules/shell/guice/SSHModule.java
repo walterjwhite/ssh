@@ -1,10 +1,10 @@
-package com.walterjwhite.ssh.impl;
+package com.walterjwhite.modules.shell.guice;
 
 import com.google.inject.AbstractModule;
 import com.walterjwhite.ssh.api.SFTPTransferService;
 import com.walterjwhite.ssh.api.SSHCommandService;
-import com.walterjwhite.ssh.impl.service.DefaultSFTPTransferService;
-import com.walterjwhite.ssh.impl.service.DefaultSSHCommandService;
+import com.walterjwhite.ssh.service.DefaultSFTPTransferService;
+import com.walterjwhite.ssh.service.DefaultSSHCommandService;
 
 public class SSHModule extends AbstractModule {
   @Override

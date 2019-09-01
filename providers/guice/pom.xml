@@ -3,27 +3,24 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.walterjwhite.java.modules.ssh</groupId>
-    <artifactId>api</artifactId>
+    <artifactId>providers</artifactId>
     <version>0.0.15-SNAPSHOT</version>
   </parent>
-  <groupId>com.walterjwhite.java.modules.ssh.api</groupId>
-  <artifactId>service</artifactId>
+  <groupId>com.walterjwhite.java.modules.ssh.providers</groupId>
+  <artifactId>guice</artifactId>
+  <version>0.0.15-SNAPSHOT</version>
   <packaging>jar</packaging>
-  <name>ssh - API - service</name>
+  <name>guice</name>
+  <description>guice</description>
   <dependencies>
     <dependency>
-      <groupId>com.walterjwhite.java.modules.ssh.api</groupId>
-      <artifactId>model</artifactId>
+      <groupId>com.walterjwhite.java.infrastructure.inject.providers</groupId>
+      <artifactId>guice</artifactId>
       <version>0.0.15-SNAPSHOT</version>
     </dependency>
     <dependency>
-      <groupId>com.walterjwhite.java.modules.shell.api</groupId>
-      <artifactId>model</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.walterjwhite.java.infrastructure.property</groupId>
-      <artifactId>api</artifactId>
+      <groupId>com.walterjwhite.java.modules.ssh</groupId>
+      <artifactId>impl</artifactId>
       <version>0.0.15-SNAPSHOT</version>
     </dependency>
   </dependencies>

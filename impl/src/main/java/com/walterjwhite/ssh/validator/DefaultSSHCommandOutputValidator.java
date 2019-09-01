@@ -1,4 +1,4 @@
-package com.walterjwhite.ssh.impl.validator;
+package com.walterjwhite.ssh.validator;
 
 import com.walterjwhite.ssh.api.SSHCommandOutputValidator;
 import com.walterjwhite.ssh.api.model.command.SSHCommand;

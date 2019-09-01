@@ -1,4 +1,4 @@
-package com.walterjwhite.ssh.impl.service;
+package com.walterjwhite.ssh.service;
 
 import com.walterjwhite.ssh.api.SFTPTransferService;
 import com.walterjwhite.ssh.api.model.SSHHost;
@@ -7,11 +7,8 @@ import java.util.HashSet;
 import java.util.Set;
 import org.junit.Before;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class SFTPTest {
-  private static final Logger LOGGER = LoggerFactory.getLogger(SFTPTest.class);
 
   protected SFTPTransferService sftpTransferService;
 
