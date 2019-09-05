@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.walterjwhite.java.modules</groupId>
     <artifactId>ssh</artifactId>
-    <version>0.0.15-SNAPSHOT</version>
+    <version>0.0.17-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.modules.ssh</groupId>
   <artifactId>impl</artifactId>
-  <version>0.0.15-SNAPSHOT</version>
+  <version>0.0.17-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>ssh - impl</name>
   <description>ssh impl</description>
@@ -16,29 +16,29 @@
     <dependency>
       <groupId>com.walterjwhite.java.modules.ssh.api</groupId>
       <artifactId>service</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.walterjwhite.java.dependencies</groupId>
       <artifactId>sshj</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
       <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.walterjwhite.java.dependencies</groupId>
       <artifactId>expectit</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
       <type>pom</type>
     </dependency>
     <dependency>
       <groupId>com.walterjwhite.java.infrastructure.inject</groupId>
       <artifactId>core</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.walterjwhite.java.modules.shell</groupId>
       <artifactId>impl</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>

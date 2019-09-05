@@ -45,6 +45,7 @@ public abstract class AbstractSSHService<SSHEntityType extends AbstractSSHEntity
     return getDefaultPublicKeyPath();
   }
 
+  // TODO: make the key type configurable as well
   protected String getDefaultPublicKeyPath() {
     return System.getProperty("user.home") + File.separator + ".ssh" + File.separator + "id_ecdsa";
   }
