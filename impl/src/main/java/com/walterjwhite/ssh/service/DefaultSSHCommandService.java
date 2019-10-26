@@ -61,8 +61,7 @@ public class DefaultSSHCommandService implements SSHCommandService, Interruptabl
 
   protected void checkIfShutdown() {
     if (shutdown)
-      throw (new IllegalStateException(
-          "Unable to run new commands as the system is shutting down."));
+      throw new IllegalStateException("Unable to run new commands as the system is shutting down.");
   }
 
   @Override
